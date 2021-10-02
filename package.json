@@ -1,0 +1,31 @@
+{
+  "name": "ghostbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThatGhostYT/ghostbot.git"
+  },
+  "keywords": [
+    "GhostBot",
+    "DiscordBot",
+    "DiscordModeration"
+  ],
+  "author": "ThatGhost Community",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThatGhostYT/ghostbot/issues"
+  },
+  "homepage": "https://github.com/ThatGhostYT/ghostbot#readme"
+}
