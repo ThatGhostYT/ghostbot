@@ -1,0 +1,14 @@
+[
+	{
+		"name": "PORT",
+		"value": 8080
+	},
+	{
+		"name": "DISCORD_BOT_TOKEN",
+		"value": "ODE5MDM1NDQyOTI1MDEwOTU0.YEgwMg.A-wuuBncYY9NBk1_3X2XEW5l-Ko"
+	},
+	{
+		"name": "DEF_PREFIX",
+		"value": "-"
+	}
+]

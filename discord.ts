@@ -1,4 +1,4 @@
-module.exports = () => {
+module.exports = app => {
 	const Discord = require("discord.js");
 	const intents = new Discord.Intents(32767);
 
