@@ -6,5 +6,7 @@ module.exports = () => {
 		intents: intents
 	});
 
+	client.on("ready", () => console.log("Online"));
+
 	client.login(process.env.DISCORD_BOT_TOKEN);
 };
