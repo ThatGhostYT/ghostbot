@@ -2,7 +2,7 @@
   "name": "ghostbot",
   "version": "1.0.0",
   "description": "",
-  "main": "main.ts",
+  "main": "main.js",
   "dependencies": {
     "@replit/database": "^2.0.1",
     "discord.js": "^13.1.0",
