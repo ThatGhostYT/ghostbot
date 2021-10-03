@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-require("./discord.ts")(app);
+require("./discord.js")(app);
 
 app.use(express.static(__dirname + "/public"));
 
