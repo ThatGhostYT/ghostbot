@@ -1,2 +1,2 @@
-language = "nix"
-run = "npx node ."
+language = "nodejs"
+run = "node ."
