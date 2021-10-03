@@ -1,10 +1,18 @@
 module.exports = app => {
 	const Discord = require("discord.js");
-	const intents = new Discord.Intents(32767);
+	const fs = require("fs");
 
 	const client = new Discord.Client({
-		intents: intents
+		intents: 32767
 	});
+
+	const files = fs.readdirSync("./commands/").filter(file => file.endsWith(".js"));
+	client.commands = new Discord.Collection();
+
+	for(const file of files){
+		const cmd = require(`./commands/${file}`);
+		client.commands.set(cmd.name, cmd);
+	}
 
 	client.on("ready", () => console.log("Online"));
 
