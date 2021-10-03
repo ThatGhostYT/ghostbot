@@ -33,7 +33,7 @@ module.exports = app => {
 		const args = message.content.substring(prefix.length).split(/ +/);
 		const command = args.shift().toLowerCase();
 
-		const cmd = client.commands.find(c => c === command);
+		const cmd = client.commands.get(command);
 	
 		if(!cmd) return message.reply(`Command \`${command}\` is not a valid command!`);
 
