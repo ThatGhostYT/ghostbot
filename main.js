@@ -10,7 +10,7 @@ for(const secret of require("./config.json")){
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req,res) => {
-    res.sendFile("/public/index.html");
+    res.sendFile(__dirname + "/public/index.html");
 });
 
 const port = process.env.PORT || 3000;
